@@ -1,13 +1,13 @@
 module.exports = {
-    title: '邓洪的个人博客',
-    description: "邓洪的个人博客，是一个关注于互联网、IT技术经验分享的个人独立博客。专注于IT行业最前沿的技术。致力成为互联网上最个性、最极客、具传播力的个人独立博客。",
+    title: 'alwaysdh的个人空间',
+    description: "雄关漫道真如铁，而今迈步从头越。",
     dest: "dist",
     head: [
         [
             "link",
             {
                 "rel": "icon",
-                "href": "https://pan.zealsay.com/blog/favicon.ico"
+                "href": "/avatar.jgp"
             }
         ],
         [
@@ -16,7 +16,7 @@ module.exports = {
                 "name": "viewport",
                 "content": "width=device-width,initial-scale=1,user-scalable=no"
             }
-        ]
+        ],
         // ['script', {}, `
         //   var _hmt = _hmt || [];
         //   (function() {
@@ -65,34 +65,37 @@ module.exports = {
             }
         },
         valineConfig: {
-            appId: "xxx",// your appId
-            appKey: "xxx", // your appKey
-            avatar: "", //
+            appId: "0JlRjzddFKM7ozlDtNceBnC2-9Nh9j0Va",// your appId
+            appKey: "BuvYTTY49vh5oqOxTVOH6gDm", // your appKey
+            avatar: "wavatar",
             enableQQ: true, //启用昵称框自动获取QQ昵称和QQ头像
-            requiredFields: ['nick', 'mail'] //设置必填项
+            requiredFields: ['nick', 'mail'], //设置必填项
+            placeholder: "留言评论~",
+            visitor: true, // 阅读量统计
+            enableQQ: true
         },
-        logo: "/logo.png",
+        logo: "/avatar.jpg",
         huawei: true, //首页出现华为文案
         search: true,
         searchMaxSuggestions: 10,
         lastUpdated: "Last Updated",
         author: "邓洪",
-        authorAvatar: '/avatar.png',
+        authorAvatar: '/avatar.jpg',
         record: "你的备案号 ", //icp备案
         startYear: "2020",
         info: "一名追求技术喜欢安静的程序猿。",
         socials: {
-            github: "https://github.com/GodLikeZeal", //github
+            github: "https://github.com/alwaysdh", //github
             gitlub: false, //gitlub
-            gitee: "https://gitee.com/GodLikeZeal", //gitee
-            jianshu: "https://www.jianshu.com/u/e2d051b6d2e9", //简书
-            zhihu: "https://www.zhihu.com/people/qian-ge-diao-63", //知乎
+            gitee: false, //gitee
+            jianshu: false, //简书
+            zhihu: false, //知乎
             toutiao: false, //知乎
-            juejin: "https://juejin.im/user/2796746683716990", //掘金
-            segmentfault: "https://segmentfault.com/u/zeal_5eecb699bdb08", //思否
-            csdn: false, //CSDN
-            wechat: "你的微信", //微信
-            qq: "你的QQ" //QQ
+            juejin: false, //掘金
+            segmentfault: false, //思否
+            csdn: "https://blog.csdn.net/Seasons_in_your_sun?spm=1010.2135.3001.5343", //CSDN
+            wechat: "alwaysdh55", //微信
+            qq: "987809534" //QQ
         },
         friendLink: [
             {
@@ -107,7 +110,6 @@ module.exports = {
                 email: 'recoluan@qq.com',
                 link: 'https://www.recoluan.com'
             }
-            // ...
         ],
         mottos: [
             {

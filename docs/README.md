@@ -1,10 +1,11 @@
 ---
 home: true
-bgImage: '/spider.png'
+bgImage: '/spider.jpg'
 bgImageStyle: {
-height: '350px'
+    maxHeight: '650px',
+    color:'#000000',
 }
-tagline: My homepage
+tagline: '端午临中夏，时清日复长。'
 actionText: 技术文档 →
 actionLink: /tech/interview/
 features:
