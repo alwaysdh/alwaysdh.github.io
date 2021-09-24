@@ -1,3 +1,5 @@
+var sidebar = require('./config/sidebar');
+
 module.exports = {
     title: 'alwaysdh的个人空间',
     description: "雄关漫道真如铁，而今迈步从头越。",
@@ -7,7 +9,7 @@ module.exports = {
             "link",
             {
                 "rel": "icon",
-                "href": "/avatar.jgp"
+                "href": "/avatar.png"
             }
         ],
         [
@@ -52,7 +54,7 @@ module.exports = {
             }
         ],
         type: 'blog',
-        sidebar: false,
+        sidebar: sidebar.sidebar,
         // 博客配置
         blogConfig: {
             category: {
@@ -67,20 +69,20 @@ module.exports = {
         valineConfig: {
             appId: "0JlRjzddFKM7ozlDtNceBnC2-9Nh9j0Va",// your appId
             appKey: "BuvYTTY49vh5oqOxTVOH6gDm", // your appKey
-            avatar: "wavatar",
+            avatar: "",
             enableQQ: true, //启用昵称框自动获取QQ昵称和QQ头像
             requiredFields: ['nick', 'mail'], //设置必填项
             placeholder: "留言评论~",
             visitor: true, // 阅读量统计
             enableQQ: true
         },
-        logo: "/avatar.jpg",
+        logo: "/avatar.png",
         huawei: true, //首页出现华为文案
         search: true,
         searchMaxSuggestions: 10,
         lastUpdated: "Last Updated",
         author: "邓洪",
-        authorAvatar: '/avatar.jpg',
+        authorAvatar: '/avatar.png',
         record: "你的备案号 ", //icp备案
         startYear: "2020",
         info: "一名追求技术喜欢安静的程序猿。",
@@ -108,6 +110,7 @@ module.exports = {
                 title: '午后南杂',
                 desc: 'Enjoy when you can, and endure when you must.',
                 email: 'recoluan@qq.com',
+                logo: '/avatar.png',
                 link: 'https://www.recoluan.com'
             }
         ],

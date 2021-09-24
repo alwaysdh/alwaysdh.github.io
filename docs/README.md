@@ -1,6 +1,6 @@
 ---
 home: true
-bgImage: '/spider.jpg'
+bgImage: '/spider.png'
 bgImageStyle: {
     maxHeight: '650px',
     color:'#000000',
